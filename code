@@ -5,7 +5,7 @@ import os
 
 
 headers = {'User-Agent':"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"}
-all_url = 'http://www.27270.com/tag/639.html'
+all_url = 'xxxxxxxxxxxxxxxxxxxxxxx' #hided
 maid_html = requests.get(all_url,  headers=headers)
 Soup=BeautifulSoup(maid_html.text,'lxml')
 all_a=Soup.find('div',class_='w1200 oh').find_all('a')
