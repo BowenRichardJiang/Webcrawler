@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 
 
-
+#This program only works on one website which is hided due to copyright
 headers = {'User-Agent':"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"}
 all_url = 'xxxxxxxxxxxxxxxxxxxxxxx' #hided
 maid_html = requests.get(all_url,  headers=headers)
